@@ -3,7 +3,8 @@
     <title> Form </title>
 </head>
     <body>
-        <form action="action.php" method="POST">
+        <h1> ADD STUDENT </h1>
+        <form action="action_page.php" method="POST">
             <table border="1">
                 <tr>
                     <th>Question</th>
@@ -11,19 +12,19 @@
                 </tr>
                 <tr>
                     <td> Name: </td>
-                    <td> <input type="text" name="name"> </td>
+                    <td> <input type="text" name="name" placeholder="Enter Full Name" value= "Rhezy"> </td>
                 </tr>
                 <tr>
                     <td> Gender: </td>
                     <td>
-                        <input type="radio" name="gender" value="male"> Male
-                        <input type="radio" name="gender" value="female"> Female
-                    </td>
+                        <input type="radio" name="gender" value="male"> Male <br>
+                        <input type="radio" name="gender" value="female"> Female <br>
                 </tr>
                 <tr>
                     <td> Country: </td>
                     <td>
                         <select name="country">
+                            <option value="Select Country">Select Country</option>
                             <option value="PH">Philippines</option>
                             <option value="AUS">Australia</option>
                             <option value="US">United States</option>
@@ -31,8 +32,8 @@
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2">
-                        <input type="submit" value="Save">
+                    <td colspan="2" align="right">
+                        <input style="backgroud = blue" type="submit" name= "submit" value="Save">
                     </td>
                 </tr>
             </table>
