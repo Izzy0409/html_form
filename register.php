@@ -12,7 +12,7 @@
                 </tr>
                 <tr>
                     <td> Name: </td>
-                    <td> <input type="text" name="name" placeholder="Enter Full Name" value= "Rhezy"> </td>
+                    <td> <input type="text" name="name" placeholder="Enter Full Name"> </td>
                 </tr>
                 <tr>
                     <td> Gender: </td>
